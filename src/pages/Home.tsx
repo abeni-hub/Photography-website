@@ -1,8 +1,15 @@
+import "./Home.css";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to My Photography</h1>
-      <p>Capturing moments that last forever.</p>
+    <div className="home">
+      <section className="hero">
+        <div className="hero-overlay">
+          <h1>Capturing Life’s Beautiful Moments</h1>
+          <p>Professional photography for timeless memories</p>
+          <button className="hero-btn">View MyWork</button>
+        </div>
+      </section>
     </div>
   );
 };
