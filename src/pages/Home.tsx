@@ -7,7 +7,7 @@ const Home = () => {
         <div className="hero-overlay">
           <h1>Capturing Life’s Beautiful Moments</h1>
           <p>Professional photography for timeless memories</p>
-          <button className="hero-btn">View MyWork</button>
+          <button className="hero-btn">View Portfolio</button>
         </div>
       </section>
     </div>
