@@ -11,7 +11,7 @@
   );
 }
 
-.navbar-inner {
+.navbar-inner { 
   max-width: 1200px;
   margin: auto;
   padding: 20px 30px;
@@ -23,7 +23,8 @@
 
 /* LOGO */
 .logo img {
-  height: 45px;
+  height: 50px;
+  width: 50px;
   object-fit: contain;
 }
 
@@ -31,6 +32,7 @@
 .nav {
   display: flex;
   gap: 35px;
+  background-color: transparent;
 }
 
 .nav a {
